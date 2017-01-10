@@ -4,8 +4,7 @@ from six import with_metaclass
 
 logger = logging.getLogger(__name__)
 
-DEFAULT = "Android"
-
+DEFAULT = "s40"
 class YowsupEnvType(abc.ABCMeta):
     def __init__(cls, name, bases, dct):
         if name != "YowsupEnv":
